@@ -26,8 +26,12 @@ a{
 }
 
 
-.container{
-   display: flex;
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 2%;
 }
 
 
@@ -66,8 +70,8 @@ input[placeholder]{
 }
 
 .navli{
-    width: 150px;
-    padding: 25px;
+    /* width: 150px; */
+    /* padding: 25px; */
     font-family: 'Roboto', sans-serif;  
     font-size: 25px;
 }
@@ -84,10 +88,10 @@ input[placeholder]{
 
 
 .right{
-   margin-left: 600px;
+   /* margin-left: 600px; */
    font-family: 'Roboto', sans-serif;  
    font-size: 25px;
-   margin-top: -50px;
+   /* margin-top: -50px; */
    width: auto;
 }
 
